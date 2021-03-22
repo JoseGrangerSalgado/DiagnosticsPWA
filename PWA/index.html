@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="../PWA/mainstyles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <link rel="manifest" href="manifest.json">
+  <title>Usage Stats</title>
+  <link rel="shortcut icon" type="image/jpg" href="../PWA/icon.jpg"/>
+</head>
+
+<body>
+    <script>if ("serviceWorker" in navigator){
+      navigator.serviceWorker.register("service-worker.js")
+    }</script>
+    <h1>Diagnostics App</h1>
+    <h2>System Data</h2><button id="sbutton" onclick="openSys()">Open/Close Data</button>
+    <div id="wrapper">
+      <div class="chart-container" id="Charts"></div>
+    </div>
+    <br>
+    <h2>System Diagnostics Manager (WIP)</h2>
+    <h2>System State (WIP)</h2>
+  <script src="../PWA/main.js"></script>
+</body>
+
+</html>
