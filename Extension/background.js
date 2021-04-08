@@ -8,15 +8,3 @@ chrome.runtime.onMessageExternal.addListener(
         sendResponse(info)
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
